@@ -4,7 +4,7 @@ import React from 'react'
 import { AiOutlineMail, AiOutlineToTop } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import c from '../public/assets/b.jpg'
+import c from '../public/assets/c.jpg'
 
 const Contacts = () => {
 
@@ -53,7 +53,7 @@ return (
     <div name='Contacts' className='w-full lg:h-screen'>
     <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
     <p className='text-xl tracking-widest uppercase text-[#5b201d9e]'>Contacts</p>
-    <h2 className='py-4'>Get In Touch</h2>
+    <h2 className='py-4'>Get In Touch with us</h2>
         
         <div className='grid lg:grid-cols-5 gap-8'>
         {/*right*/}
@@ -63,12 +63,12 @@ return (
                 <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={c} alt='//'/>
                 </div>
                 <div>
-                    <h2 className='py-2'>Francis Omondi</h2>
-                    <p>Full Stack Developer</p>
-                    <p className='py-4' >I am available for freelance or full-time positions.</p>
+                    <h2 className='py-2'>Universal Grants Organization</h2>
+                    <p>Reliable grant lenders</p>
+                    <p className='py-4' >We are vailable to attend to all your grants inquiries.</p>
                 </div>
                 <div>
-                    <p className='uppercase pt-8'>Connect With Me</p>
+                    <p className='uppercase pt-8'>Connect With Us</p>
                     <div className='flex items-center justify-between py-4'>
                         {SocialLinks.map(({id,child,href,download,target})=>(
                             <Link key={id} href={href} download={download} target={target}>

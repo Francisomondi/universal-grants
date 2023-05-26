@@ -52,15 +52,19 @@ const Main = () => {
     <div name='Home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm -tracking-widest text-gray-600'>LETS WORK ON SOMETHING TOGETHER</p>
-          <h1 className='py-4 text-gray-700'>Hi, I am <span className='text-[#5b201d9e]'>Francis</span></h1>
-          <h1 className='py-2 text-gray-700'>I am a full stack Developer</h1>
+        <h3 className='py-2 text-gray-700'> Universal Grants Organization</h3>
+          <h2 className='py-4 text-gray-700'>Welcome To <span className='text-[#5b201d9e]'>UNIVERSAL GRANTS ORGANIZATION</span></h2>
+          
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-            I am a solution-driven professional excelling in highly collaborative work
-            environment, finding solutions to challenges and focused on customer
-            satisfaction. Proven experience developing consumer-focused back and
-            front-end solutions in JavaScript node Js mongoDB, express and react
-            (MERN Stack)
+          One of the challenges that people face when starting a 
+          business is funding. Universal Grants Ltd Funding for 
+          startups in Kenya can help you launch or expand your 
+          business.Startup funding is a big deal for Kenyan entrepreneurs 
+          in the Kenya startup ecosystem. There are many people 
+          with business ideas but can’t put them into action 
+          since they have no money.You can get a startup loan 
+          ranging between Ksh 50,000 and Ksh 500,000. The aim of the program is to provide  
+          eradicate poverty by creating opportunities. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 

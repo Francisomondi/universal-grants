@@ -18,12 +18,9 @@ const Navbar = () => {
         },
         {
             id:3,
-            link:'Skills'
+            link:'Testimony'
         },
-        {
-            id:4,
-            link:'Projects'
-        },
+        
         {
             id:5,
             link:'Contacts'
@@ -97,7 +94,7 @@ useEffect(()=>{
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]': 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-            <h1 className='text-4xl font-bold font-signature'>Francis Omondi</h1>
+            <h1 className='text-4xl font-bold font-signature'>Universal Grants Organization</h1>
             </Link>
             
                 <div>
@@ -123,13 +120,13 @@ useEffect(()=>{
                 <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500': 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <h1 className='text-3xl font-bold font-signature'>Francis Omondi</h1>
+                            <h1 className='text-3xl font-bold font-signature'>Universal Grants Organization</h1>
                             <div onClick={handleNav}  className='rounded-full shadow-lg shadow-gray-00 p-3 cursor-pointer'>
                                 <AiOutlineClose/>
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[95%] py-2'>Full Stack Web Solution</p>
+                        <p className='w-[85%] md:w-[95%] py-2'>Best Grand Lenders Organization</p>
                         </div>
                     </div>
 
@@ -138,12 +135,12 @@ useEffect(()=>{
                             {links.map(({id,link})=>(
                                 <Link key={id}
                                 to={link}
-                                 onClick={()=>setNav(false)}
+                                onClick={()=>setNav(false)}
                                 smooth='true'
                                 duration={500}>
                                 <li className='py-4 text-sm border-b font-medium hover:scale-105 duration-200'>{link}</li>
                                 </Link>
-                               
+                            
                             ))}
                         </ul>
 
