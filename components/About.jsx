@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll'
 import React from 'react'
 import Image from 'next/image'
-import aziz from '../public/assets/G.jpg'
+//import aziz from '../public/assets/G.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         <div className='w-full h-auto shadow-xl shadow-gray-800 rounded-xl flex items-center justify-center p-4 hover:scale-105 duration-300'>
-          <Image className='rounded-xl' src={aziz} alt='my hero image' />
+          {/**<Image className='rounded-xl' src={aziz} alt='my hero image' /> */}
 
         </div>
       </div>

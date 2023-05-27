@@ -4,7 +4,7 @@ import React from 'react'
 import { AiOutlineMail, AiOutlineToTop } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import c from '../public/assets/c.jpg'
+//import c from '../public/assets/c.jpg'
 
 const Contacts = () => {
 
@@ -60,7 +60,7 @@ return (
         <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-800 rounded-xl p-4'>
             <div className='lg:p-4 h-full'>
                 <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={c} alt='//'/>
+                {/** <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={c} alt='//'/>*/}
                 </div>
                 <div>
                     <h2 className='py-2'>Universal Grants Organization</h2>
