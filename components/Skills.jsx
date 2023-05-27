@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Html from '../public/assets/cherani.jpg'
+//import Html from '../public/assets/cherani.jpg'
 import css from '../public/assets/mtush.jpg'
 import javascript from '../public/assets/salon.jpg'
 import react from '../public/assets/fruits.jpg'
